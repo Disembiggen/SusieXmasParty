@@ -7,8 +7,9 @@
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: true;'>
       <a-marker preset="hiro">
         <a-entity position="0 -1 0"
-                  scale="1.05 1.05 1.05"
+                  scale=".05 .05 .05"
                   obj-model="obj: url(xmas.obj); mtl: url(xmas.mtl)"></a-entity>
+        <a-sphere color="yellow" radius="1" position="1 0 0"></a-sphere>
         
       </a-marker>
       <a-entity camera></a-entity>
